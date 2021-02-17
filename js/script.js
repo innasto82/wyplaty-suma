@@ -4,7 +4,7 @@ $(document).ready(function(){
             $('.salary').each(function() {
                 sum += parseInt($(this).text());
             })
-            $('#sum').text($(this).text(sum))
+            $('#sum').text(sum);
        })
     })
     	
